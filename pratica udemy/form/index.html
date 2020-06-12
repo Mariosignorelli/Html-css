@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mario">
+    <meta name="description" content="tabelas">
+    <meta name="keywords" content="html5, tecnologia">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="_css/stylo.css">
+</head>
+<body>
+    <h1>Exemplos de formularios login</h1>
+   <form action="#" method="POST" class="formlogin">
+       <fieldset>
+           <legend>Dados pessoais</legend>
+
+           <label>Email</label>
+           <input type="email" required>
+           <br>
+           <label>numeros de filhos</label>
+           <input type="number">
+           <br>
+           <input type="submit" value="Mandar" min="0" max="30">
+           <br>
+           <label for="">data de nacimento</label>
+           <input type="date" min="1990-01-01" max="2040-01-01">
+           <br>
+           <p>Sexo</p>
+            <label>
+               <input type="radio" name="sexo" value="m">
+                Masculino
+            </label>
+
+            <label>
+               <input type="radio" name="sexo" value="f">
+               Feminino
+            </label> <br>
+            <label for="">Estado</label>
+            <select name="estado" size="1">
+                <option value="sp">são Paulo</option>
+                <option value="rj">Rio de janeiro</option>
+                <option value="sc">Santa catarina</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="pr">parana</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="area">Área de interesse</label> <br>
+                <label>
+                <input type="checkbox" name="html" value="html"> HTML
+            </label> 
+            <br>
+            <label>
+                <input type="checkbox" name="css" value="css"> CSS
+            </label> 
+            <br>
+            <label>
+                <input type="checkbox" name="javascript" value="javascript"> Javascript
+            </label> 
+        </fieldset>
+        <fieldset>
+           <legend>Mensagem</legend>
+            <textarea style="resize: none;" name="mensagem" id="msg" cols="50" rows="10" maxlength="30"></textarea>
+            <br>
+            <textarea style="resize: none;" name="mensagem" id="msg" cols="50" rows="10" readonly>Contrato de prestação de serviço 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, non, distinctio dolore odit vero veritatis inventore eos qui omnis necessitatibus nam illum tempora vitae id in ea quibusdam est nostrum?
+               
+                
+            </textarea> <br>
+            <label for="arquivo">escolha um araquivo:</label>
+
+                    <input type="file"
+                id="arq" name="arquivo"
+                accept="image/png, image/jpeg, doc/doc, doc/pdf">
+                <input type="hidden" name="expira" value="2020-12-31">
+
+            <label><input type="checkbox" name="aceito" id="aceito">Li e aceito
+                
+        </fieldset>
+        <input type="range" min="0" max="10" step="3">
+                <input type="time" name="" id="">
+                <input type="color" name="" id="">
+            <input type="submit" value="Mandar">
+            
+   </form>
+
+</body>
+</html>

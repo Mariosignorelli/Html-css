@@ -1,0 +1,30 @@
+body h1 {
+    text-align: center;
+}
+
+.formlogin {
+width: 250px;
+margin: 50px auto 0;
+font-family: sans-serif;
+}
+.formlogin label {
+    display: block;
+    margin-top: 20px;
+}
+.formlogin fieldset {
+  background: #ccc;
+}
+#user, #pass, .btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+}
+#user:focus, #pass:focus {
+    background: #ddd;
+}
+.btn {
+    margin-top: 15px;
+}

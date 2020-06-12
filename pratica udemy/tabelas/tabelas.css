@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    background: beige;
+}
+th {
+    background: chocolate;
+    border: 3px solid rgba(153, 147, 147, 0.794);
+    padding: 15px;
+}
+td {
+    border: solid 1px black;
+    text-align: center;
+    padding: 10px;
+}

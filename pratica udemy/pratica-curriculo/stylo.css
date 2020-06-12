@@ -1,0 +1,29 @@
+body{
+    font: normal 16px arial;
+    background-color: slategrey;
+
+}
+h1,h2,p {
+    border: 6px solid gainsboro;
+    background: rgb(212, 202, 202);
+    width: 800px;
+    margin: auto;
+    font-style: normal arial 18px;
+}
+figure#Perfil{
+margin:  -0px 550px 10px;
+width: 100px;
+height: auto;
+ border:4px solid white ;
+ box-shadow: 2px 2px 4px black;
+}
+li{
+    border: 6px solid gainsboro;
+    background: rgb(212, 202, 202);
+    width: 800px;
+    margin: auto;
+    font-style: normal arial 18px;
+}
+
+
+

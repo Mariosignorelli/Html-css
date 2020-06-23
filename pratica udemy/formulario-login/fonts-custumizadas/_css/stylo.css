@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'custumer';
+    src: url(../astronbi.eot);
+    src:  url(../astronbi.woff); formart('woff')
+    src:  url(../astronbi.ttf); formart('trupype')
+    src:  url(../astronbi.svg); formart('svg')
+    
+
+h1 {
+    font-family: custumer, Arial, Helvetica, sans-serif;
+}

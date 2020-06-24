@@ -1,0 +1,30 @@
+article:nth-child(1) a {  /* 1º item*/
+    color: red;
+}
+article:nth-child(3) > p { /* parente direto*/
+    color: red;
+}
+article:nth-child(5) h3 + p { /* o 5° depois do h3*/
+    color:yellow;
+}
+article:nth-child(7) h3 ~ p { /* todos os irmãos*/
+    color: orange;
+}
+article:not(.destaque) {
+    color: orange;
+}
+.destaque {
+    background: yellow;
+}
+a[href="#"] {
+    opacity: .2;
+}
+a[href^="http"] {
+    color:red;
+}
+a[title]{
+    color: green;
+}
+a[href$=".pdf"] {
+    text-decoration: none;
+}

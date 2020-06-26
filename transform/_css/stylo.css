@@ -1,0 +1,79 @@
+.div1{
+    width: 150px;
+    height: 50px;
+   background-image: url(../_css/modelo3.jpg);
+    transform: translate3d(50px, 50px, 300px );
+}
+.div2{
+    width: 150px;
+    height: 50px;
+    background: blue;  
+}
+.div3-1{
+    background: yellow;
+    transform: translateX(100%);
+    
+}
+.externa{
+    background-color: blueviolet;
+    width: 150px;
+    height: 135px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.div4-1{
+    background: royalblue;
+    transform:rotate(45deg);
+    border: 2px solid black;
+  
+}
+.rotet{
+    width: 150px;
+    height: 135px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.div5-1{
+    background: #66666669;
+    transform:rotate(45deg);
+    transform-origin: left top;
+    border: 2px solid black;
+   
+}.div7{
+    background-color: blueviolet;
+    width: 150px;
+    height: 135px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+}
+.div7-1{
+    background: yellow;
+    border:3px solid black;
+    
+}
+.div6{
+    width: 150px;
+    height: 150px;
+    background: blue;  
+    
+    
+}
+.div6-1{
+    background: yellow;
+    border:3px solid black;
+    overflow: hidden;
+    
+}
+.div8{
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    transform: skewX(-10deg) skewY(50deg);
+}
+.div9{
+    width: 80px;
+    height: 80px;
+    background-color:green;
+    transform: scaleX(3.5);
+}

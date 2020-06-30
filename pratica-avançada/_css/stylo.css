@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+}
+a[target="blank"]::after{
+    content: url(../_css/_imagens/NewWindow.png);
+    display: inline-block;
+    margin-left: 5px;
+}
+a[href$=".pdf"]::before{
+    content: url(../_css/_imagens/ImgPdf.png);
+    display: inline-block;
+    margin-right:   5px;
+}
+ .check{
+ 
+    width: 12px;
+    height: 12px;
+   border-radius: 5px;
+   border: 2px solid rgba(204, 204, 204, 0.596);
+   background: rgba(221, 221, 221, 0.918);
+ }

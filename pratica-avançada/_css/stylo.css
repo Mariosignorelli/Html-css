@@ -11,11 +11,27 @@ a[href$=".pdf"]::before{
     display: inline-block;
     margin-right:   5px;
 }
- .check{
- 
+ .chk{
+    display: inline;
+    border-radius: 5px;
+    border: 2px solid rgba(204, 204, 204, 0.596);
+    background: rgba(221, 221, 221, 0.918);
     width: 12px;
     height: 12px;
-   border-radius: 5px;
-   border: 2px solid rgba(204, 204, 204, 0.596);
-   background: rgba(221, 221, 221, 0.918);
- }
+  
+  }
+  label{
+      display: inline;
+      height: 12px;
+  }
+
+  input[type="ckeckbox"]{
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+      visibility: hidden;
+      display: inline-block;
+  }
+  input[type="ckeckbox"]:checked + label .chk{
+      background: red;
+  }

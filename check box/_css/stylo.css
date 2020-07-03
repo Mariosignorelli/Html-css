@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+}
+label{
+    margin-right: 35px;
+}
+.button{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background: rgb(179, 176, 176);
+
+}
+.button::before{
+    content: "";
+    display: block;
+    background: #eee;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    transition: all .2s ease-in-out;
+}
+input:checked  + .button::before{
+    transform: translateX(30px);
+    background: blue;
+
+input{  
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    
+}

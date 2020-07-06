@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(84, 214, 214,.7);
+}
+a{
+    display: block;
+    margin: 10px;
+    position: relative;
+}
+a img{
+    width: 50%%;
+    display: block;
+}
+a::before{
+    content: ''; /* manter vazio para nao somar a imagem*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+    background: transparent;
+    transition: all .5s;
+}
+a:hover:before{
+    background: rgba(0,0,0,.8);
+}
+a:after{
+    opacity: 0;
+}
+a:hover:after{
+    content: 'Veja mais';
+    display: block;
+    position: absolute;
+    border: 3px solid white;
+    color: white;
+    top: 50%;
+    left: 10%;
+    padding: 5px 15px;
+    opacity: 1;
+    
+}

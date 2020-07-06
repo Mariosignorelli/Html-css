@@ -25,7 +25,11 @@ label{
 input:checked  + .button::before{
     transform: translateX(30px);
     background: blue;
-
+}
+label input:focus +span{
+    border: 2px solid red;
+    box-sizing: border-box;
+}
 input{  
     opacity: 0;
     width: 1px;

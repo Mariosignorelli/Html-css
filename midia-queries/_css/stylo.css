@@ -1,0 +1,32 @@
+body{
+    background: blue;
+}
+@media screen and (min-width: 400px){
+    body{
+        background: dimgray;
+    }
+    .conteiner div{
+        width: calc(50% - 30px);
+        float: left;
+        margin: 15px;
+    }
+}
+.teste{
+    background: red;
+    width: 320px;
+    height: 100px;
+}
+.conteiner{
+    background: white;
+    padding: 15px;
+}
+.clearfix::after{
+content: '  ';
+display: block;
+clear: both;
+}
+.conteiner div{
+    background: rgba(204, 204, 204, 0.822);
+    margin-bottom: 15px;
+    height: 150px;
+}

@@ -1,0 +1,43 @@
+#grupo-cores{
+    padding: 15px;
+    background: url(imagens/tile.png);
+    counter-reset: contador;
+}
+
+#grupo-cores div{
+    width: 80%;
+    height: 150px;
+    border: 10px solid rgba(0,0,0,.5);
+    margin: 20px auto;
+    padding: 15px;
+    counter-increment: contador;  
+}
+#grupo-cores div::before{
+    content: '['counter(contador) ']';
+}
+#grupo-cores div:nth-child(2){
+    background-color: aquamarine;
+    background-clip: content-box;
+}
+#grupo-cores div:nth-child(3){
+    background-color: rgb(50%, 50%, 0%);
+    background-clip: content-box;
+}#grupo-cores div:nth-child(4){
+    background-color: rgba(50%, 50%, 0%, .4);
+    background-clip: content-box;
+}
+#grupo-cores div:nth-child(5){
+    background-color: hsl(10deg,100%, 50%);
+    background-clip: content-box;
+}
+#grupo-cores div:nth-child(6){
+    background-color: hsla(19deg,100%, 50%,.6);
+    background-clip: content-box;
+}
+#grupo-cores div:nth-child(7){
+  background-image: linear-gradient(to bottom left, red, blue);
+  background-clip: content-box;
+}
+#grupo-cores div:nth-child(8){
+   background-image: radial-gradient(blue, red);
+}

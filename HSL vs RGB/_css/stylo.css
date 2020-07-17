@@ -41,3 +41,31 @@
 #grupo-cores div:nth-child(8){
    background-image: radial-gradient(blue, red);
 }
+#grupo-cores div:nth-child(9){
+    background-image: radial-gradient( circle, blue, red);
+ }
+ #grupo-cores div:nth-child(10){
+    background-image: radial-gradient(circle, blue, red,yellow);
+ }
+ #grupo-cores div:nth-child(11){
+    background-image: radial-gradient(closest-side at 20% 90%,   grey, blue, red,yellow);
+ }
+ #grupo-cores div:nth-child(12){
+    background-image: radial-gradient(farthest-side at 20% 90%,  grey, blue, red,yellow);
+ }
+ #grupo-cores div:nth-child(13){
+    background-image: radial-gradient(closest-corner at 20% 90%,   grey, blue, red,yellow);
+ }
+ #grupo-cores div:nth-child(14){
+    background-image: radial-gradient(farthest-corner  at 20% 90%,  grey, blue, red,yellow);
+ }
+ #grupo-cores div:nth-child(15){
+    background-image: repeating-linear-gradient(red 0%, yellow 10%, blue 50%);
+ }
+ #grupo-cores div:nth-child(16){
+    background-image: repeating-radial-gradient(red 0%, yellow 10%, blue 50%);
+ }
+ #grupo-cores div:nth-child(17){
+      background-image: radial-gradient(closest-corner at 50% 10%, blue,transparent), url(../03\(1\).jpg);
+     background-size: cover;
+ }

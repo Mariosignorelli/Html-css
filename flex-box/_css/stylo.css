@@ -1,0 +1,27 @@
+.flexbox{
+    height: 250px;
+    border: 1px solid red;
+    display: flex;
+    
+    margin-bottom: 15px;
+}
+
+.flexbox div{
+    background: orange;
+    width: 300px;
+    margin: 15px;
+}
+.flexbox:nth-child(4){
+/*flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap;
+}
+.flexbox:nth-child(5){
+justify-content: space-around;
+}
+.flexbox:nth-child(5) div{
+   width: 40px; 
+}
+.flexbox:nth-child(6){
+    align-items: center;
+}

@@ -40,10 +40,74 @@ justify-content: space-around;
    flex-wrap: wrap;
    align-content: flex-end;
 }
-.flexbox:nth-child(9) div{
+.flexbox:nth-child(8) div{
    width: 70px;
    
 }
+.flexbox:nth-child(9){
+   justify-content: center;
+   align-items: center;
+}
+.flexbox:nth-child(9) div{
+    background: blue;
+    flex-basis: 50px;
+    height: 50px;
+}
 .flexbox:nth-child(10){
+    justify-content: center;
+    align-items: center;
+ }
+ .flexbox:nth-child(10) div{
+     background: blue;
+     flex-basis: 100px;
+     height: 50px;
+ }
+ .flexbox:nth-child(10) div:nth-child(2){
+     flex-grow: 3;
+ }
+ .flexbox:nth-child(10) div:nth-child(4){
+    flex-grow: 1;
+}
+.flexbox:nth-child(11){
+    justify-content: center;
+    align-items: center;
+ }
+ .flexbox:nth-child(11) div{
+     background: brown;
+     flex-basis: 100px;
+     height: 60px;
+ }
+ .flexbox:nth-child(11) div:nth-child(2){
+  
+    flex-shrink: 1;
+}
+.flexbox:nth-child(11) div:nth-child(4){
+  flex-shrink: 1;
+}
+.flexbox:nth-child(12) div:nth-child(2){
+    background: red;
+    order: 3;
+}
+.flexbox:nth-child(12) div:nth-child(4){
+    background: red;
+    order: 2;
+}
+flexbox:nth-child(13){
+    align-items: flex-start;
     
+}
+.flexbox:nth-child(13)div:nth-child(2){
+    align-items: flex-start;
+    align-self: flex-end;
+    background: royalblue;
+ 
+}
+.flexbox:nth-child(14){
+    background: saddlebrown;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.flexbox:nth-child(14) div{
+    flex-basis: 70px;
 }

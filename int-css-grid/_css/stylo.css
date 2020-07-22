@@ -1,0 +1,30 @@
+.gridContainer{
+    width: 300px;
+    background: #ccc;
+}
+
+.gridItem{
+    background: #999;
+    
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.gridItem:nth-child(even){
+    background: #999;
+    color: white;
+}
+.gridItem:nth-child(odd){
+    background: #eee;
+}
+/*GRID*/
+.gridContainer{
+    display: grid;
+    /*grid-template-columns: 100px 100px 100px;
+    grid-template-rows : 100px 100px;
+    grid-row-gap:30px ;
+    grid-column-gap: 12px;
+    grid-template-columns: repeat(3, 90px);*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-gap: 30px 12px;
+}

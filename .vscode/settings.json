@@ -1,5 +1,14 @@
 {
     "git.ignoreLimitWarning": true,
     "liveServer.settings.CustomBrowser": "firefox",
-    "liveServer.settings.fullReload": true
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.https": {
+        "enable": true
+    },
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.useBrowserPreview": true,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.useWebExt": true
 }

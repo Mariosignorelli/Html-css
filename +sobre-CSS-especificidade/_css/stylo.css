@@ -5,6 +5,15 @@
     color:blue;
     font-size: 1em;
 }
-p{
-    color: green !important;
+
+.jumbotron{
+    background: rgba(0,0,0,.5);
+}
+.jumbotron__text{
+ font-family: cursive;
+color: white;
+}
+.jumbotron__title{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

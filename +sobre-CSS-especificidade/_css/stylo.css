@@ -1,0 +1,10 @@
+.destaque{
+    color: red;
+}
+#unico{
+    color:blue;
+    font-size: 1em;
+}
+p{
+    color: green !important;
+}

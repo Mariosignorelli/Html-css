@@ -1,4 +1,4 @@
-@keyframes slide{
+/* @keyframes slide{
 0%{
 transform: translateY(0);
 }
@@ -26,7 +26,24 @@ transform: translateY(0);
                             
 100%{
     transform: translateY(0);
-}
+}  uma das alternativas 
+} */
+@keyframes slide{
+    0%, 22%{
+        transform: translateY(0);
+    }                
+    25%, 47%{
+        transform: translateY(-50vh);
+    }                
+    50%, 72% {
+        transform: translateY(-100vh);                    
+    }                
+    75%, 97% {
+        transform: translateY(-150vh);                    
+    }
+    100%{
+        transform: translateY(0);
+    }                       
 }
 
 
@@ -39,6 +56,7 @@ body{
 }
 #slide-externo{
    width: 80vw;
+   
   
    border: 10px solid white;
   height: 50vh;  box-shadow: 0 0 10px black;
@@ -48,6 +66,7 @@ body{
 }
 #slide-interno{
     width: 100%;
+    height:70%;
    animation: slide 15s infinite;
     
 }
